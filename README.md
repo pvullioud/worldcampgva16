@@ -1,5 +1,5 @@
 
-# Ho API day / Quick start for Worldpress REST API plugin
+# Ho API day / Quick start for Wordpress REST API plugin
 
 Presented by Pierre-André Vullioud at [WorldCamp Geneva](https://2016.geneva.wordcamp.org/sessions/#wcorg-session-631)
 
