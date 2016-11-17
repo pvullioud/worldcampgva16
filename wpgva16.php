@@ -22,8 +22,6 @@ add_action('init', 'wpgva_rest_init');
  */
 function wpgva_rest_init()
 {
-    if ( !class_exists('WP_REST_Controller') ) { return; }
-
     $class = new Wpgva\Routes();
     add_filter( 'rest_api_init', array( $class, 'register_routes' ) );
 }

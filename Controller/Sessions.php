@@ -12,7 +12,7 @@ if (!defined('ABSPATH'))
     exit; // Exit if accessed directly
 }
 
-class Sessions extends WP_REST_Controller
+class Sessions
 {
     public function register_routes()
     {
